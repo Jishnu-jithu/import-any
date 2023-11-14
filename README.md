@@ -1,5 +1,9 @@
 <h1 align="center">Import Any - Blender Add-On </h1>
 
+<p align="center">
+  <img src="https://github.com/Jishnu-jithu/import-any/assets/145359279/ca33b975-63ad-49db-97ca-c0ddb9a60af4">
+</p>
+
 This addon allows you to import any file format with just one click. It supports a wide range of formats, including OBJ, FBX, DAE, 3DS, ABC, USD, USDA, USDC, USDZ, GLTF, GLB, SVG, PLY, STL, DXF, BVH, X3D, WRL, JPG, JPEG, PNG, MP4, PSD, and XYZ.
 
 To use the addon, simply go to the Import menu and select "Import Any". Then, select the file you want to import and click "Open". The addon will automatically import the file and add it to your scene.
