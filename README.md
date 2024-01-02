@@ -22,7 +22,7 @@ Import Any addon allows you to batch import, saving you valuable time and effort
 
 ## Supported Formats
 
-FBX, OBJ, STL, GLTF, GLB, DAE, USD, USDA, USDC, USDZ, BVH, X3D, 3DS, PLY, PDB, DXF, CHAN, JPG, JPEG, PNG, MP4, PSD, PY (Python), TXT.
+fbx, obj, stl, gltf, glb, dae, usd, usda, usdc, usdz, bvh, x3d, 3ds, ply, pdb, dxf, chan, jpg, jpeg, png, mp4, psd, py (python), txt.
 
 ## Installation
 
