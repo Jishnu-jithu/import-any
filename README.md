@@ -39,7 +39,7 @@ fbx, obj, stl, gltf, glb, dae, usd, usda, usdc, usdz, bvh, x3d, 3ds, ply, pdb, d
 
 1. Copy the file path(s) from Windows Explorer.
    - Right-click on the file(s) > Copy as path.
-   - Alternatively, select the file(s), right-click > Copy as path or use Ctrl+Shift+C.
+   - Alternatively, select the file(s), use Ctrl+Shift+C.
 2. In Blender, press **V** to open the menu.
 3. Select the model name from the menu.
 
