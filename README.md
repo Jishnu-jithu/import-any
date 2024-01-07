@@ -63,6 +63,8 @@ You can customize the placement of the Import Any menu:
 #### Added Features:
 - **Import from Clipboard Popup**: A new popup has been added to import from the clipboard. This addresses some restrictions of the clipboard menu, such as closing instantly when importing one model out of multiple files, or changing settings like turning on/off 'create collection'. With the new popup, you can import all files without interruption and adjust the offset of imported models.
 
+- **File Path and Size Tooltip**: We’ve added a tooltip that displays the file path and size when you hover over the filenames in the popup and menu. This provides more information about the files you’re working with, right at your fingertips.
+
 #### Improvements:
 - **Import Status Indication**: The clipboard menu now shows a checkmark icon if a file has been imported. This function tracks the file name and the collection name, so it will not work if a collection was not created when importing. An error icon will be displayed if a file fails to import.
 
