@@ -8,21 +8,15 @@
 
 ## Features
 
-#### 1. Seamless Import of Any File Format
+- Seamless Import of Any File Format - With Import Any, enjoy the flexibility of importing a multitude of file formats effortlessly. Access all supported formats through a menu.
 
-With Import Any, enjoy the flexibility of importing a multitude of file formats effortlessly. Access all supported formats through a menu.
+- Copy-Paste File Path Import - Efficiency meets simplicity! Copy the file path directly from your file explorer and paste it into Blender.
 
-#### 2. Copy-Paste File Path Import
-
-Efficiency meets simplicity! Copy the file path directly from your file explorer and paste it into Blender.
-
-#### 3. Batch Importing Capabilities
-
-Import Any addon allows you to batch import, saving you valuable time and effort.
+- Batch Importing Capabilities - Import Any addon allows you to batch import, saving you valuable time and effort.
 
 ## Supported Formats
 
-fbx, obj, stl, gltf, glb, dae, usd, usda, usdc, usdz, bvh, x3d, 3ds, ply, pdb, dxf, chan, jpg, jpeg, png, mp4, psd, py (python), txt.
+fbx, obj, stl, gltf, glb, dae, usd, usda, usdc, usdz, bvh, x3d, 3ds, ply, pdb, dxf, chan, jpg, jpeg, png, mp4, psd, py, txt.
 
 ## Installation
 
@@ -33,7 +27,7 @@ fbx, obj, stl, gltf, glb, dae, usd, usda, usdc, usdz, bvh, x3d, 3ds, ply, pdb, d
 
 ## Usage
 
-### Method 1: Import via Import Any Menu
+#### Method 1: Import via Import Any Menu
 
 1. Open Blender.
 2. Go to **File > Import > Import Any**.
@@ -41,7 +35,7 @@ fbx, obj, stl, gltf, glb, dae, usd, usda, usdc, usdz, bvh, x3d, 3ds, ply, pdb, d
 4. Optionally, enable "Create Collection" to group objects into separate collections based on file types.
 5. Click "Import."
 
-### Method 2: Import via Copy-Paste File Path
+#### Method 2: Import via Copy-Paste File Path
 
 1. Copy the file path(s) from Windows Explorer.
    - Right-click on the file(s) > Copy as path.
@@ -49,11 +43,7 @@ fbx, obj, stl, gltf, glb, dae, usd, usda, usdc, usdz, bvh, x3d, 3ds, ply, pdb, d
 2. In Blender, press **V** to open the menu.
 3. Select the model name from the menu.
 
-### Batch Import
-
-- You can import multiple files simultaneously using both methods.
-
-### Import Menu Location Preferences
+#### Import Menu Location Preferences
 
 You can customize the placement of the Import Any menu:
 
@@ -64,6 +54,38 @@ You can customize the placement of the Import Any menu:
    - **Both Menus:** Display the option in both the main File menu and the Import submenu.
    - **Above Import Menu:** Display the option at the top of the Import menu.
 
-## Support and Feedback
+---
 
-For additional support or to provide feedback, join our [Blendyhub Telegram Channel](https://t.me/Blendyhub).
+## Changelog
+
+### Version 1.3
+
+#### Added Features:
+- **Import from Clipboard Popup**: A new popup has been added to import from the clipboard. This addresses some restrictions of the clipboard menu, such as closing instantly when importing one model out of multiple files, or changing settings like turning on/off 'create collection'. With the new popup, you can import all files without interruption and adjust the offset of imported models.
+
+#### Improvements:
+- **Import Status Indication**: The clipboard menu now shows a checkmark icon if a file has been imported. This function tracks the file name and the collection name, so it will not work if a collection was not created when importing. An error icon will be displayed if a file fails to import.
+
+#### Bug Fixes:
+- **Model Collection Assignment**: Fixed a bug that caused imported models to move to the default collection (Collection).
+
+---
+
+### Version 1.2
+
+#### Added Features:
+- **Offset Option for Imported 3D Models**: We’ve added a new feature that allows you to change the offset of each 3D model imported. This means you can now specify the position of your imported models along the X, Y, or Z axis. This is particularly useful when importing multiple models at once, as it helps prevent overlapping of models. You can set the default settings for this feature in the add-on preferences. Alternatively, you can change the settings from the ‘Import from Clipboard’ panel located in View 3D > Sidebar > Tool.
+
+#### Improvements:
+- **Import Status Indication**: We’ve made several improvements to the user interface to make it more intuitive and user-friendly. Now, it’s easier than ever to import your 3D models.
+- **Better Error Handling**: We’ve improved the error handling in the add-on. Now, if an error occurs during the import process, the add-on will provide a more descriptive error message, making it easier for you to troubleshoot any issues.
+  
+---
+
+### Version 1.1
+
+#### Added Features:
+- **Create Collection**: This feature allows users to import models into their own collections. When importing multiple models, each model will be placed in a separate collection. This helps in better organization and management of models, especially when dealing with a large number of imports. The feature can be toggled on or off from the add-on preferences.
+
+#### Improvements:
+- **Clipboard Import Menu**: The import menu has been enhanced for better user experience. It now includes an option to import all valid paths from the clipboard in one go, improving efficiency. Additionally, the menu dynamically shows or hides the ‘Create Collection’ option based on the user’s preference, providing a cleaner interface.
