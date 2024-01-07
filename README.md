@@ -27,21 +27,22 @@ fbx, obj, stl, gltf, glb, dae, usd, usda, usdc, usdz, bvh, x3d, 3ds, ply, pdb, d
 
 ## Usage
 
-#### Method 1: Import via Import Any Menu
+#### Method 1: Import from Import Any Menu
 
 1. Open Blender.
-2. Go to **File > Import > Import Any**.
+2. Go to **File > Import > Import Any** or press `Shift+V` to open the file selector.
 3. Choose the file(s) you want to import.
 4. Optionally, enable "Create Collection" to group objects into separate collections based on file types.
 5. Click "Import."
 
-#### Method 2: Import via Copy-Paste File Path
+#### Method 2: Import from Clipboard
 
 1. Copy the file path(s) from Windows Explorer.
+
    - Right-click on the file(s) > Copy as path.
-   - Alternatively, select the file(s), use Ctrl+Shift+C.
-2. In Blender, press **V** to open the menu.
-3. Select the model name from the menu.
+   - Alternatively, select the file(s), `Ctrl+Shift+C`
+3. In Blender, press `V` to open the menu or `Alt+v` to open then popup dialog.
+4. Select the model name from the menu.
 
 #### Import Menu Location Preferences
 
@@ -49,6 +50,7 @@ You can customize the placement of the Import Any menu:
 
 1. Go to Edit > Preferences > Add-ons > Import Any.
 2. In the Import Menu Location section, choose one of the following options:
+   
    - **File Menu:** Display the Import Any option in the main File menu.
    - **Import Submenu:** Display the option in the Import submenu of the File menu.
    - **Both Menus:** Display the option in both the main File menu and the Import submenu.
@@ -71,9 +73,7 @@ You can customize the placement of the Import Any menu:
 #### Bug Fixes:
 - **Model Collection Assignment**: Fixed a bug that caused imported models to move to the default collection (Collection).
 
-
 https://github.com/Jishnu-jithu/import-any/assets/145359279/4a244fd9-fb25-4df9-8b27-e15e79048d62
-
 
 ---
 
