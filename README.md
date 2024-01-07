@@ -69,6 +69,10 @@ You can customize the placement of the Import Any menu:
 #### Bug Fixes:
 - **Model Collection Assignment**: Fixed a bug that caused imported models to move to the default collection (Collection).
 
+
+https://github.com/Jishnu-jithu/import-any/assets/145359279/4a244fd9-fb25-4df9-8b27-e15e79048d62
+
+
 ---
 
 ### Version 1.2
